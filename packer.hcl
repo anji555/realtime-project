@@ -9,11 +9,11 @@ packer {
 }
 
 source "amazon-ebs" "ubuntu" {
- access_key = "AKIASRQT5TDFKGMFFZ5W"
-  secret_key = "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"
+ access_key = "AKIA32EIENFECUWC4ZTR"
+  secret_key = "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"
   ami_name      = "ami-packer-image"
   instance_type = "t2.micro"
-  region        = "us-west-2"
+  region        = "ap-south-1"
   source_ami = "ami-01216e7612243e0ef"
   ssh_username = "ec2-user"
 }
